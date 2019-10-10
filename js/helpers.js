@@ -25,14 +25,18 @@ var Helpers = (function () {
     }
 
     var prefixes = [
-      { magnitude: 1e24, label: 'Y' },
-      { magnitude: 1e21, label: 'Z' },
-      { magnitude: 1e18, label: 'E' },
-      { magnitude: 1e15, label: 'P' },
+      { magnitude: 1e39, label: 'DD' },
+      { magnitude: 1e36, label: 'U' },
+      { magnitude: 1e33, label: 'D' },
+      { magnitude: 1e30, label: 'N' },
+      { magnitude: 1e27, label: 'O' },
+      { magnitude: 1e24, label: 'SS' },
+      { magnitude: 1e21, label: 'S' },
+      { magnitude: 1e18, label: 'QQ' },
+      { magnitude: 1e15, label: 'Q' },
       { magnitude: 1e12, label: 'T' },
       { magnitude:  1e9, label: 'B' },
-      { magnitude:  1e6, label: 'M' },
-      { magnitude:  1e3, label: 'k' }
+      { magnitude:  1e6, label: 'M' }
     ];
 
     var abs = Math.abs(number);
