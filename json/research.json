@@ -7,8 +7,8 @@
     "image": "assets/icons/png/CPV.png",
     "info": "html/CPV.html",
     "state": {
-      "reputation": 1e0,
-      "cost": 1e1,
+      "reputation": 1,
+      "cost": 10,
       "info_levels": [ 1, 5, 10, 15, 20 ]
     }
   },
@@ -20,8 +20,8 @@
     "image": "assets/icons/png/Jpsi.png",
     "info": "html/Jpsi.html",
     "state": {
-      "reputation": 6e0,
-      "cost": 4e2,
+      "reputation": 8,
+      "cost": 200,
       "info_levels": [ 1, 5 ]
     }
   },
@@ -33,8 +33,8 @@
     "image": "assets/icons/png/tau.png",
     "info": "html/tau.html",
     "state": {
-      "reputation": 3.3e1,
-      "cost": 1e4,
+      "reputation": 60,
+      "cost": 5000,
       "info_levels": [ 1, 5 ]
     }
   },
@@ -46,8 +46,8 @@
     "image": "assets/icons/png/b.png",
     "info": "html/b.html",
     "state": {
-      "reputation": 1.85e2,
-      "cost": 2e5,
+      "reputation": 500,
+      "cost": 75000,
       "info_levels": [ 1, 5 ]
     }
   },
