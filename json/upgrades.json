@@ -3,12 +3,12 @@
     "key": "upgrade-masterstudents1",
     "name": "Kinderzimmer",
     "description": "A shared room for all your Master students. Used to be a server room.",
-    "effect": "Master Students produce +2 data per second.",
+    "effect": "Master Students produce +20 data per second.",
     "icon": "fa-group",
     "cost": 4e2,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "workers-masterstudents", "property": "hired", "threshold": 5 }],
-    "constant": 2
+    "constant": 20
   },
   {
     "key": "upgrade-masterstudents2",
